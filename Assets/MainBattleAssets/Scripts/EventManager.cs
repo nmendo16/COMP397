@@ -1,46 +1,83 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement; // Needed for restart functionality
+using UnityEngine.SceneManagement;
 
 public class EventManager : MonoBehaviour
 {
-    public GameObject popUpWindow; // Assign a UI panel in Unity
-    public Button quitButton; // Assign Quit Button
-    public Button restartButton; // Assign Restart Button
-    public float checkInterval = 1f;
+    public static EventManager Instance;
+
+    [Header("UI References")]
+    public GameObject popUpWindow;
+    public Text messageText;
+    public Text pauseText;
+    public Button quitButton;
+    public Button restartButton;
+
+    bool isPausedByPlayer = false;
+
+    void Awake()
+    {
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
+    }
 
     void Start()
     {
         popUpWindow.SetActive(false);
-        InvokeRepeating("CheckForEnemies", checkInterval, checkInterval);
-
+        pauseText.enabled = false;
         quitButton.onClick.AddListener(QuitGame);
         restartButton.onClick.AddListener(RestartGame);
     }
 
-    void CheckForEnemies()
+    void Update()
     {
-        if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            ShowEndTestMessage();
+            if (popUpWindow.activeSelf && isPausedByPlayer)
+                ResumeGame();
+            else
+                PauseForPlayer();
         }
     }
 
-    void ShowEndTestMessage()
+    public void BossDefeated()
     {
+        ShowPopup("Level Clear");
+    }
+
+    public void ShowPopup(string msg)
+    {
+        messageText.text = msg;
         popUpWindow.SetActive(true);
-        Time.timeScale = 0; // Freezes everything
+        Time.timeScale = 0f;
+        isPausedByPlayer = false;
+    }
+
+    void PauseForPlayer()
+    {
+        messageText.text = "Paused";
+        popUpWindow.SetActive(true);
+        Time.timeScale = 0f;
+        isPausedByPlayer = true;
+        pauseText.enabled = true;
+    }
+
+    void ResumeGame()
+    {
+        popUpWindow.SetActive(false);
+        Time.timeScale = 1f;
+        isPausedByPlayer = false;
+        pauseText.enabled = false;
     }
 
     void QuitGame()
     {
-        Debug.Log("Closing application... Goodbye!");
         Application.Quit();
     }
 
     void RestartGame()
     {
-        Time.timeScale = 1; // Unfreeze everything
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Reloads the current scene
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

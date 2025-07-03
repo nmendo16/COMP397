@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3367385078604580424}
   - component: {fileID: 690397158137713550}
   - component: {fileID: 6097075940243145801}
+  - component: {fileID: 7089529522806040060}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Enemy
@@ -146,8 +147,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 603c04dfdb7f9f44a9ae10c109dab3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 4
+  maxHealth: 5
   moveSpeed: 5
-  enemyBulletPrefab: {fileID: 0}
-  bulletSpawnPoint: {fileID: 0}
+  enemyBulletPrefab: {fileID: 946587430785732111, guid: c6de58c4c878d854d9eb33cdc6f9a100, type: 3}
+  bulletSpawnPoint: {fileID: 6534061669672539550}
   fireRate: 2.5
+--- !u!114 &7089529522806040060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5119624129498645990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3d1321be20a14b9ca5778fe5211d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1

@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 6649370091756069408}
   - component: {fileID: 2759016382824793882}
   - component: {fileID: 4313482675944889892}
+  - component: {fileID: 6544771236244716439}
+  - component: {fileID: 7042553630735786167}
   m_Layer: 0
   m_Name: enemyCube
   m_TagString: Enemy
@@ -119,12 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f3c6caca72c9e347a192954d636e41a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 4
-  moveSpeed: 5
   rotationSpeed: 100
-  enemyBulletPrefab: {fileID: 0}
-  bulletSpawnPoint: {fileID: 0}
-  fireRate: 2.5
 --- !u!54 &4313482675944889892
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -152,3 +149,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6544771236244716439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6731214596165015265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603c04dfdb7f9f44a9ae10c109dab3f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 5
+  moveSpeed: 5
+  enemyBulletPrefab: {fileID: 1213514128421179315, guid: 155a5ce727d4da249be304d482aa8b8b, type: 3}
+  bulletSpawnPoint: {fileID: 6846498381350925482}
+  fireRate: 0.5
+--- !u!114 &7042553630735786167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6731214596165015265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3d1321be20a14b9ca5778fe5211d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1

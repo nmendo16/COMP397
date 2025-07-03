@@ -6,11 +6,14 @@ TagManager:
   tags:
   - Bullet
   - Enemy
+  - Stat
+  - enemyBullet
+  - Boundary
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Boundary
   - Water
   - UI
   - 
