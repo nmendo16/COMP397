@@ -34,11 +34,13 @@ UnityEngine.Animator::SetTriggerString
 UnityEngine.Application::get_isBatchMode
 UnityEngine.Application::get_isFocused
 UnityEngine.Application::get_isPlaying
+UnityEngine.Application::get_persistentDataPath
 UnityEngine.Application::OpenURL
 UnityEngine.Application::Quit
 UnityEngine.Application::set_targetFrameRate
 UnityEngine.Application::get_platform
 UnityEngine.AsyncOperation::InternalDestroy
+UnityEngine.AudioSource::PlayOneShotHelper
 UnityEngine.Behaviour::get_enabled
 UnityEngine.Behaviour::get_isActiveAndEnabled
 UnityEngine.Behaviour::set_enabled
@@ -200,7 +202,6 @@ UnityEngine.GameObject::GetComponentInParent
 UnityEngine.GameObject::Internal_AddComponentWithType
 UnityEngine.GameObject::TryGetComponentInternal
 UnityEngine.GameObject::FindGameObjectWithTag
-UnityEngine.GameObject::FindGameObjectsWithTag
 UnityEngine.GameObject::get_transform
 UnityEngine.GL::Begin
 UnityEngine.GL::End
@@ -317,6 +318,8 @@ UnityEngine.Internal.InputUnsafeUtility::GetAxis
 UnityEngine.Internal.InputUnsafeUtility::GetAxisRaw
 UnityEngine.Internal.InputUnsafeUtility::GetAxisRaw__Unmanaged
 UnityEngine.Internal.InputUnsafeUtility::GetAxis__Unmanaged
+UnityEngine.JsonUtility::FromJsonInternal
+UnityEngine.JsonUtility::ToJsonInternal
 UnityEngine.Light::get_useColorTemperature
 UnityEngine.Light::get_bounceIntensity
 UnityEngine.Light::get_colorTemperature
@@ -372,6 +375,7 @@ UnityEngine.Mesh::get_canAccess
 UnityEngine.Mesh::get_subMeshCount
 UnityEngine.Mesh::get_vertexCount
 UnityEngine.Mesh::GetIndicesImpl
+UnityEngine.Mesh::GetTrianglesImpl
 UnityEngine.Mesh::ClearImpl
 UnityEngine.Mesh::GetArrayFromChannelImpl
 UnityEngine.Mesh::Internal_Create
@@ -382,7 +386,11 @@ UnityEngine.Mesh::SetArrayForChannelImpl
 UnityEngine.Mesh::SetIndicesImpl
 UnityEngine.Mesh::get_bounds_Injected
 UnityEngine.Mesh::set_bounds_Injected
+UnityEngine.Mesh::set_indexFormat
+UnityEngine.Mesh::set_subMeshCount
+UnityEngine.MeshFilter::set_mesh
 UnityEngine.MeshFilter::set_sharedMesh
+UnityEngine.MeshFilter::get_sharedMesh
 UnityEngine.MonoBehaviour::Internal_IsInvokingAll
 UnityEngine.MonoBehaviour::IsInvoking
 UnityEngine.MonoBehaviour::IsObjectMonoBehaviour
@@ -411,6 +419,7 @@ UnityEngine.Object::set_hideFlags
 UnityEngine.Object::get_hideFlags
 UnityEngine.Object::FindObjectFromInstanceID
 UnityEngine.Object::Internal_CloneSingle
+UnityEngine.Object::Internal_CloneSingleWithParent
 UnityEngine.Object::Internal_InstantiateSingle_Injected
 UnityEngine.ObjectGUIState::Internal_Create
 UnityEngine.ObjectGUIState::Internal_Destroy
@@ -447,6 +456,7 @@ UnityEngine.Quaternion::Lerp_Injected
 UnityEngine.Quaternion::LookRotation_Injected
 UnityEngine.Random::RandomRangeInt
 UnityEngine.Random::Range
+UnityEngine.Random::get_insideUnitSphere_Injected
 UnityEngine.RectOffset::get_bottom
 UnityEngine.RectOffset::get_horizontal
 UnityEngine.RectOffset::get_left
@@ -508,6 +518,10 @@ UnityEngine.RenderTexture::GetTemporary_Internal_Injected
 UnityEngine.Resources::GetBuiltinResource
 UnityEngine.ResourcesAPIInternal::Load
 UnityEngine.ResourcesAPIInternal::FindShaderByName
+UnityEngine.Rigidbody::MovePosition_Injected
+UnityEngine.Rigidbody::get_position_Injected
+UnityEngine.Rigidbody::set_collisionDetectionMode
+UnityEngine.Rigidbody::set_constraints
 UnityEngine.Rigidbody::set_velocity_Injected
 UnityEngine.SceneManagement.Scene::GetBuildIndexInternal
 UnityEngine.SceneManagement.SceneManager::get_sceneCount

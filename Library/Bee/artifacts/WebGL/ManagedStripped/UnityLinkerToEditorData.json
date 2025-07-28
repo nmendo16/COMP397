@@ -43,7 +43,9 @@
           },
           {
             "name": "AudioClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/MainBattleAssets/Scenes/MainBattleScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -62,8 +64,18 @@
             "icon": null
           },
           {
+            "name": "AudioSource",
+            "scenes": [
+              "Assets/MainBattleAssets/Scenes/MainBattleScene.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "SampleClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/MainBattleAssets/Scenes/MainBattleScene.unity"
+            ],
             "dependencyType": 1,
             "icon": null
           }
@@ -574,6 +586,14 @@
             "name": "Collider",
             "scenes": [],
             "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "MeshCollider",
+            "scenes": [
+              "Assets/MainBattleAssets/Scenes/MainBattleScene.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {

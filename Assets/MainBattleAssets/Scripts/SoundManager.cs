@@ -48,13 +48,14 @@ public class SoundManager : MonoBehaviour
             soundList[i].name = names[i];
         }
     }
-}
+
 #endif
 
-[Serializable]
-public struct SoundList
-{
-    public AudioClip[] Sounds => soundList; 
-    [HideInInspector] public string name;
-    [SerializeField] private AudioClip[] soundList;
+    [Serializable]
+    public struct SoundList
+    {
+        public AudioClip[] Sounds => soundList;
+        [HideInInspector] public string name;
+        [SerializeField] private AudioClip[] soundList;
+    }
 }

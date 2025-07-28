@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Enemies\\BossBulletSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MainBattleAssets\\Scripts\\Enemies\\BossBulletSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78F10F8C-8DEE-D5E4-020E-CE4022E1387B}|Assembly-CSharp.csproj|c:\\users\\nmloo\\documents\\sem4\\unity\\polyguns\\assets\\polyhedrongenerator\\scripts\\polyhedrongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78F10F8C-8DEE-D5E4-020E-CE4022E1387B}|Assembly-CSharp.csproj|solutionrelative:assets\\polyhedrongenerator\\scripts\\polyhedrongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78F10F8C-8DEE-D5E4-020E-CE4022E1387B}|Assembly-CSharp.csproj|c:\\users\\nmloo\\documents\\sem4\\unity\\polyguns\\assets\\mainbattleassets\\scripts\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78F10F8C-8DEE-D5E4-020E-CE4022E1387B}|Assembly-CSharp.csproj|solutionrelative:assets\\mainbattleassets\\scripts\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78F10F8C-8DEE-D5E4-020E-CE4022E1387B}|Assembly-CSharp.csproj|C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\assets\\mainbattleassets\\scripts\\enemies\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,16 +19,20 @@
       "RelativeMoniker": "D:0:0:{78F10F8C-8DEE-D5E4-020E-CE4022E1387B}|Assembly-CSharp.csproj|solutionrelative:assets\\mainbattleassets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{78F10F8C-8DEE-D5E4-020E-CE4022E1387B}|Assembly-CSharp.csproj|C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\assets\\mainbattleassets\\scripts\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78F10F8C-8DEE-D5E4-020E-CE4022E1387B}|Assembly-CSharp.csproj|solutionrelative:assets\\mainbattleassets\\scripts\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78F10F8C-8DEE-D5E4-020E-CE4022E1387B}|Assembly-CSharp.csproj|C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\assets\\mainbattleassets\\scripts\\enemies\\bossbulletspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78F10F8C-8DEE-D5E4-020E-CE4022E1387B}|Assembly-CSharp.csproj|solutionrelative:assets\\mainbattleassets\\scripts\\enemies\\bossbulletspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{78F10F8C-8DEE-D5E4-020E-CE4022E1387B}|Assembly-CSharp.csproj|C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\assets\\mainbattleassets\\scripts\\enemies\\bosstouch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78F10F8C-8DEE-D5E4-020E-CE4022E1387B}|Assembly-CSharp.csproj|solutionrelative:assets\\mainbattleassets\\scripts\\enemies\\bosstouch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78F10F8C-8DEE-D5E4-020E-CE4022E1387B}|Assembly-CSharp.csproj|C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\assets\\mainbattleassets\\scripts\\player\\bulletbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78F10F8C-8DEE-D5E4-020E-CE4022E1387B}|Assembly-CSharp.csproj|solutionrelative:assets\\mainbattleassets\\scripts\\player\\bulletbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78F10F8C-8DEE-D5E4-020E-CE4022E1387B}|Assembly-CSharp.csproj|C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\assets\\mainbattleassets\\scripts\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78F10F8C-8DEE-D5E4-020E-CE4022E1387B}|Assembly-CSharp.csproj|solutionrelative:assets\\mainbattleassets\\scripts\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78F10F8C-8DEE-D5E4-020E-CE4022E1387B}|Assembly-CSharp.csproj|C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\assets\\mainbattleassets\\scripts\\enemies\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,6 +67,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PolyhedronGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\polyhedronGenerator\\scripts\\PolyhedronGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\polyhedronGenerator\\scripts\\PolyhedronGenerator.cs",
+              "ToolTip": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\polyhedronGenerator\\scripts\\PolyhedronGenerator.cs",
+              "RelativeToolTip": "Assets\\polyhedronGenerator\\scripts\\PolyhedronGenerator.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T14:39:24.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventManager.cs",
+              "DocumentMoniker": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\EventManager.cs",
+              "RelativeDocumentMoniker": "Assets\\MainBattleAssets\\Scripts\\EventManager.cs",
+              "ToolTip": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\EventManager.cs",
+              "RelativeToolTip": "Assets\\MainBattleAssets\\Scripts\\EventManager.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T16:46:29.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "BossBulletSpawner.cs",
               "DocumentMoniker": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Enemies\\BossBulletSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\MainBattleAssets\\Scripts\\Enemies\\BossBulletSpawner.cs",
@@ -66,36 +100,23 @@
               "RelativeToolTip": "Assets\\MainBattleAssets\\Scripts\\Enemies\\BossBulletSpawner.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T16:35:11.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T16:35:11.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BossTouch.cs",
-              "DocumentMoniker": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Enemies\\BossTouch.cs",
-              "RelativeDocumentMoniker": "Assets\\MainBattleAssets\\Scripts\\Enemies\\BossTouch.cs",
-              "ToolTip": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Enemies\\BossTouch.cs",
-              "RelativeToolTip": "Assets\\MainBattleAssets\\Scripts\\Enemies\\BossTouch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T16:17:46.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Healthbar.cs",
               "DocumentMoniker": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Enemies\\Healthbar.cs",
               "RelativeDocumentMoniker": "Assets\\MainBattleAssets\\Scripts\\Enemies\\Healthbar.cs",
               "ToolTip": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Enemies\\Healthbar.cs",
               "RelativeToolTip": "Assets\\MainBattleAssets\\Scripts\\Enemies\\Healthbar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T00:37:25.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "BulletBehavior.cs",
               "DocumentMoniker": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Player\\BulletBehavior.cs",
               "RelativeDocumentMoniker": "Assets\\MainBattleAssets\\Scripts\\Player\\BulletBehavior.cs",
@@ -107,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ToggleCamera.cs",
               "DocumentMoniker": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\ToggleCamera.cs",
               "RelativeDocumentMoniker": "Assets\\MainBattleAssets\\Scripts\\ToggleCamera.cs",
@@ -119,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\MainBattleAssets\\Scripts\\Player\\PlayerMovement.cs",
@@ -131,19 +152,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "PlayerStats.cs",
               "DocumentMoniker": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Player\\PlayerStats.cs",
               "RelativeDocumentMoniker": "Assets\\MainBattleAssets\\Scripts\\Player\\PlayerStats.cs",
               "ToolTip": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Player\\PlayerStats.cs",
               "RelativeToolTip": "Assets\\MainBattleAssets\\Scripts\\Player\\PlayerStats.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAkwJgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T22:46:17.304Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Enemies\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\MainBattleAssets\\Scripts\\Enemies\\Enemy.cs",
+              "ToolTip": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Enemies\\Enemy.cs",
+              "RelativeToolTip": "Assets\\MainBattleAssets\\Scripts\\Enemies\\Enemy.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA+wEQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T23:29:43.344Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "BossTouch.cs",
+              "DocumentMoniker": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Enemies\\BossTouch.cs",
+              "RelativeDocumentMoniker": "Assets\\MainBattleAssets\\Scripts\\Enemies\\BossTouch.cs",
+              "ToolTip": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Enemies\\BossTouch.cs",
+              "RelativeToolTip": "Assets\\MainBattleAssets\\Scripts\\Enemies\\BossTouch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T16:17:46.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Spawner.cs",
               "DocumentMoniker": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Enemies\\Spawner.cs",
               "RelativeDocumentMoniker": "Assets\\MainBattleAssets\\Scripts\\Enemies\\Spawner.cs",
@@ -155,19 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Enemies\\Enemy.cs",
-              "RelativeDocumentMoniker": "Assets\\MainBattleAssets\\Scripts\\Enemies\\Enemy.cs",
-              "ToolTip": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Enemies\\Enemy.cs",
-              "RelativeToolTip": "Assets\\MainBattleAssets\\Scripts\\Enemies\\Enemy.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAgwGUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T23:29:43.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "EnemyBulletBehavior.cs",
               "DocumentMoniker": "C:\\Users\\nmloo\\Documents\\SEM4\\Unity\\Polyguns\\Assets\\MainBattleAssets\\Scripts\\Enemies\\EnemyBulletBehavior.cs",
               "RelativeDocumentMoniker": "Assets\\MainBattleAssets\\Scripts\\Enemies\\EnemyBulletBehavior.cs",

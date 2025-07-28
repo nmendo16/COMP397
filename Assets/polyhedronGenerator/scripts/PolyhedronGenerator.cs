@@ -26,13 +26,21 @@ namespace polyhedronGenerator.scripts {
         [Min(3)] public int sides = 3;
         [Range(0, 93)] [Header("for Johnson")] public int index;
 
-        public void OnValidate() {
-            if (liveUpdate) {
-                generate();
-            }
+        #if UNITY_EDITOR
+        private void OnValidate()
+    {
+        if (liveUpdate)
+        {
+            EditorApplication.delayCall += () => {
+                if (this != null) generate();
+            };
         }
+    }
+        #endif
+
+
 #if UNITY_EDITOR
-        [ContextMenu("saveMesh()")]
+[ContextMenu("saveMesh()")]
         private void saveMesh() {
             if (GetComponent<MeshFilter>().sharedMesh == null) {
                 generate();
